@@ -1,0 +1,210 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.6;
+}
+
+.about-photo {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(23, 23, 23, 0.1); 
+}
+
+.about p {
+    margin-bottom: 16px;
+}
+
+.about p:first-of-type  {
+    margin-top: 56px;
+}
+
+.section-skills .title {
+    margin-bottom: 72px;
+}
+
+.section-skills .title #subtitle {
+    width: 800px;
+    margin: 8px auto 0 auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
+.skills h3 {
+    color: #F1C687;
+}
+
+.soft-skills, .hard-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.skills li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.line {
+    width: 1px;
+    background: linear-gradient(
+        to right,
+        #0a0f14 0%,             
+        #0a0f14 49%,             
+        rgba(255, 255, 255, 0.3) 50%,
+        #0a0f14 51%,           
+        #0a0f14 100%      
+    );
+}
+
+.section-jobs {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.other-jobs {
+    display: flex;
+    gap: 48px;
+}
+
+.other-jobs .column-1, .other-jobs .column-2 {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-jobs .title {
+    margin-bottom: 16px;
+}
+
+.section-jobs .title p:first-of-type {
+    color: #F0C687;
+    font-weight: bold;
+}
+
+.main-job .title p:nth-child(2), .other-jobs .title p:nth-child(2) {
+    font-weight: bold;
+} 
+
+.description p {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+footer {
+    margin-top: 0 !important;
+}
+
+
+@media (max-width: 1024px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .section-skills .title #subtitle {
+    width: 90%;
+  }
+
+  .section-jobs {
+    width: 90%;
+  }
+
+  .other-jobs {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .other-jobs .column-1,
+  .other-jobs .column-2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 1rem;
+  }
+
+  .about-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .section-skills .title {
+    text-align: center;
+  }
+
+  .skills h3 {
+    text-align: center;
+  }
+
+  .soft-skills, .hard-skills {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav li {
+    padding: 8px 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .about {
+    padding: 1rem;
+  }
+
+  .skills {
+    gap: 32px;
+  }
+
+  #backToTop {
+    right: 16px;
+    bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
