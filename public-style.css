@@ -253,6 +253,10 @@ footer {
   margin-top: 16px;
 }
 
+.footerIcons a {
+  text-decoration: none;
+}
+
 .footerIcons img {
   width: 30px;
   height: 30px;
