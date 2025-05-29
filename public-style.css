@@ -147,19 +147,6 @@ footer {
     margin-top: 130px;
 }
 
-#tks {
-  font-size: clamp(32px, 12vw, 130px);
-  color: #041324;
-  text-transform: uppercase;
-  font-weight: bold;
-  word-wrap: break-word;
-  text-align: center;
-  padding: 0 16px;
-  max-width: 100%;
-  overflow-wrap: break-word;
-  box-sizing: border-box;
-}
-
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -264,13 +251,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
   h1 {
-    font-size: 24px;
+    width: 70vw;
+    font-size: 32px;
     margin: 120px auto 0 auto;
   }
 
   h2 {
     font-size: 28px;
+    padding: 0 16px;
+    width: 70vw;
+    margin: 0 auto;
     padding: 0 16px;
   }
 
@@ -287,7 +279,16 @@ footer {
   }
 
   nav {
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+}
+
+@media screen and (max-width: 462px) {
+
+  h1 {
+      width: 80vw;
+  }
+
 }

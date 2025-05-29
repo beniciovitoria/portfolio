@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 100%;
     margin-bottom: 88px;
 }
 
@@ -248,6 +248,19 @@ button {
     height: 88px;
 }
 
+#tks {
+  font-size: clamp(32px, 12vw, 130px);
+  color: #0D2237;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-wrap: break-word;
+  text-align: center;
+  padding: 0 16px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 1305px) {
 
     .buttons {
@@ -325,9 +338,9 @@ button {
 
 @media screen and (max-width: 766px) {
 
-    header {
-        margin-bottom: 0;
-    }
+    /* header {
+        height: 70vh;
+    } */
 
     .section-projects {
         padding-top: 0px; 

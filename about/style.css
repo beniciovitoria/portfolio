@@ -152,6 +152,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  header {
+    height: 100%;
+  }
+
   .about {
     padding: 1rem;
   }
