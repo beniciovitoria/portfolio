@@ -1,7 +1,7 @@
 .about-page {
-    display: flex;
-    flex-direction: column;
-    gap: 88px;
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 .about {
@@ -22,11 +22,15 @@
 }
 
 .about p {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .about p:first-of-type  {
-    margin-top: 56px;
+  margin-top: 56px;
+}
+
+.section-skills {
+  margin-top: 88px;
 }
 
 .section-skills .title {
@@ -34,90 +38,90 @@
 }
 
 .section-skills .title #subtitle {
-    width: 800px;
-    margin: 8px auto 0 auto;
+  width: 800px;
+  margin: 8px auto 0 auto;
 }
 
 .skills {
-    display: flex;
-    justify-content: center;
-    gap: 96px;
+  display: flex;
+  justify-content: center;
+  gap: 96px;
 }
 
 .skills h3 {
-    color: #F1C687;
+  color: #F1C687;
 }
 
 .soft-skills, .hard-skills {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .skills ul {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .skills li {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .line {
-    width: 1px;
-    background: linear-gradient(
-        to right,
-        #0a0f14 0%,             
-        #0a0f14 49%,             
-        rgba(255, 255, 255, 0.3) 50%,
-        #0a0f14 51%,           
-        #0a0f14 100%      
-    );
+  width: 1px;
+  background: linear-gradient(
+      to right,
+      #0a0f14 0%,             
+      #0a0f14 49%,             
+      rgba(255, 255, 255, 0.3) 50%,
+      #0a0f14 51%,           
+      #0a0f14 100%      
+  );
 }
 
 .section-jobs {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 0 auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 88px auto 0 auto;
 }
 
 .other-jobs {
-    display: flex;
-    gap: 48px;
+  display: flex;
+  gap: 48px;
 }
 
 .other-jobs .column-1, .other-jobs .column-2 {
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .section-jobs .title {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .section-jobs .title p:first-of-type {
-    color: #F0C687;
-    font-weight: bold;
+  color: #F0C687;
+  font-weight: bold;
 }
 
 .main-job .title p:nth-child(2), .other-jobs .title p:nth-child(2) {
-    font-weight: bold;
+  font-weight: bold;
 } 
 
 .description p {
-    line-height: 24px;
-    margin-bottom: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
 footer {
-    margin-top: 0 !important;
+  margin-top: 88px !important;
 }
 
 
