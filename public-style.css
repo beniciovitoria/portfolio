@@ -123,8 +123,8 @@ h1 {
   font-size: 48px;
   text-align: center;
   margin: 184px auto 0 auto;
+  width: 65%;
   max-width: 100%;
-  width: 75%;
   word-wrap: break-word;
 }
 
