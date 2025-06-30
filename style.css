@@ -1,6 +1,5 @@
 header {
-    height: 100%;
-    margin-bottom: 88px;
+    height: 100vh;
 }
 
 .buttons {
@@ -336,11 +335,16 @@ button {
 
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 900px) {
 
-    /* header {
-        height: 70vh;
-    } */
+    header {
+        height: auto;
+        margin-bottom: 144px;
+    }
+
+    #primario {
+        margin-bottom: 8px;
+    }
 
     .section-projects {
         padding-top: 0px; 
