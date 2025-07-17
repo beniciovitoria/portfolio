@@ -52,7 +52,8 @@ button {
 
 .down-arrow {
     text-align: center;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
+    animation: bounce 1s infinite;
 }
 
 @keyframes bounce {
@@ -242,12 +243,19 @@ button {
     margin-top: 88px;
 }
 
-.section-process #subtitle {
+.section-process #subtitle, .section-process #subtitle2 {
     width: 90%;
-    margin: 8px auto 48px auto;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+}
+
+.section-process #subtitle {
+    margin: 8px auto 0 auto;
+}
+
+.section-process #subtitle2 {
+    margin: 5px auto 56px auto;
 }
 
 .linha1, .linha2 {
@@ -338,7 +346,7 @@ button {
     .empresas-mobile { display: flex; margin-top: 24px;}
     .empresas-mobile img { width: 60px; height: 60px; text-align: center; }
     .section-process { margin-top: 40px; padding: 0 24px; }
-    .section-process #subtitle { width: 100%; text-align: start; margin: 8px 0 0 0; }
+    .section-process #subtitle, .section-process #subtitle2 { width: 100%; text-align: start; margin: 8px 0 0 0; }
     .linha1, .linha2 { align-items: flex-start; }
     .processo { margin-top: 24px; }
     .processo h3 { text-align: start; font-size: 24px; }
