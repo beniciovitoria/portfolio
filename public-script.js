@@ -29,7 +29,7 @@ function revealGroups() {
 
   groups.forEach(group => {
     const top = group.getBoundingClientRect().top;
-    const isVisible = top < windowHeight - 150;
+    const isVisible = top < windowHeight - 50;
 
     if (isVisible && !group.classList.contains('active')) {
       group.classList.add('active');

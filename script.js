@@ -20,9 +20,9 @@ const conteudos = [
   `,
   `
     <h3>Blog Klabin</h3>
-    <p>Para atender à necessidade da Klabin de compartilhar conteúdos relevantes com seus públicos, desenvolvemos o Blog Klabin, um portal dedicado que foi lançado em junho de 2023. O blog reúne e organiza temas fundamentais para a empresa, como “Sustentabilidade”, “Indústria e Tecnologia”, “Negócios e Produtos” e “E-commerce”. A Klabin, com seus 125 anos de história, é uma referência mundial em desenvolvimento sustentável, além de ser a maior produtora e exportadora de papéis para embalagens no Brasil.</p>
-    <p>Com o objetivo de ampliar a presença digital da Klabin e alcançar novos públicos, o blog foi criado como uma plataforma independente do site principal, permitindo um foco maior em conteúdos informativos e de valor. O layout do Blog Klabin foi projetado com atenção especial à otimização para SEO, garantindo que os conteúdos sejam facilmente encontrados e acessados. Entre as funcionalidades, destacam-se a exibição de posts mais populares, produtos relacionados, e-books para download, e notícias filtradas por tags, tudo projetado para proporcionar uma navegação intuitiva e interativa, especialmente em dispositivos móveis.</p>
-    <p>Além de funcionar como um repositório de informações atualizadas e relevantes, o Blog Klabin proporciona uma experiência de navegação atraente e funcional, com recursos que facilitam o compartilhamento e a interação com os conteúdos, como a opção de curtir postagens. Os artigos e materiais disponíveis são claros, bem explicados e têm um forte caráter informativo, refletindo o compromisso da Klabin em fornecer conteúdos de educação ambiental, social e econômica. Com essa plataforma, a Klabin não apenas amplia sua presença digital, mas também reafirma seu papel como líder em sustentabilidade e inovação no mercado global.</p>
+    <p>Pensado para ser um portal independente do site institucional, o Blog Klabin ganhou mais liberdade visual e espaço para funcionalidades interativas. Entre os recursos implementados, estão a exibição de posts mais populares, produtos relacionados, notícias filtradas por tags e muito mais. Tudo pensado para oferecer uma experiência de navegação funcional, atrativa e responsiva. Também foram incluídas opções de interação, como curtir e compartilhar conteúdos para engajar os usuários.</p>
+    <p>Além disso, para garantir que o Blog Klabin tivesse grande potencial de alcance e visibilidade orgânica, contamos com o suporte de uma equipe especializada em SEO, para seguirmos as melhores práticas e estratégias para maximizar o desempenho nas buscas, aumentando a captação de novos públicos e o engajamento com os conteúdos.</p>
+    <p>O blog reforça o papel de liderança em sustentabilidade e inovação da Klabin, fortalecendo sua comunicação com diferentes públicos por meio de uma plataforma relevante, acessível e informativa.</p>
   `
 ];
 
@@ -83,5 +83,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-/////////////////////////////////////////////
