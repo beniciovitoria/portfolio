@@ -1,13 +1,8 @@
 header {
     height: 100vh;
-}
-
-header .title {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 header #subtitle {
@@ -53,6 +48,11 @@ button {
     color: #F0C687;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
+}
+
+.down-arrow {
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 @keyframes bounce {
@@ -320,19 +320,17 @@ button {
     .tecnlogia, .analiseDados, .treinamento { width: 90%; margin: 16px 0; }
     .modal-content { max-width: 90vw; padding: 24px; }
     .modal-content p { text-align: start; }
-
 }
 
 @media screen and (max-width: 900px) {
-    header { height: auto; margin-bottom: 104px; }
+    header { height: auto; margin-bottom: 64px; }
     header .title { padding: 0 16px; }
-    header .title h1 { width: 100%; margin-top: 88px;}
     header .title #subtitle {  width: 100%; font-size: 16px; }
     #primario { margin-bottom: 8px; }
     .down-arrow { margin-top: 40px; }
     .section-projects { padding: 0 24px; }
     .section-projects #subtitle { width: 100%; text-align: start; margin: 8px 0 0 0; }
-    
+    .projeto { width: 90vw; }
     .projeto p { padding: 0 16px 24px 16px; }
     .section-companies { margin-top: 40px; padding: 0 24px; }
     .section-companies #subtitle { width: 100%; text-align: start; margin: 8px 0 0 0; }
