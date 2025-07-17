@@ -2,6 +2,14 @@ header {
     height: 100vh;
 }
 
+header .title {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header #subtitle {
     width: 60%;
     margin: 8px auto 32px auto;
@@ -54,12 +62,6 @@ button {
   50% {
     transform: translateY(10px);
   }
-}
-
-.down-arrow {
-    text-align: center;
-    margin-top: 176px;
-    animation: bounce 2s infinite;
 }
 
 .section-projects {
