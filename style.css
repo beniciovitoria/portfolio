@@ -333,7 +333,7 @@ button {
 @media screen and (max-width: 900px) {
     header { height: auto; margin-bottom: 64px; }
     header .title { padding: 0 16px; }
-    header .title #subtitle {  width: 100%; font-size: 16px; }
+    header .title #subtitle {  width: 80%; font-size: 16px; }
     #primario { margin-bottom: 8px; }
     .down-arrow { margin-top: 40px; }
     .section-projects { padding: 0 24px; }

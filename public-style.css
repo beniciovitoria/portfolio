@@ -244,9 +244,9 @@ footer {
 @media screen and (max-width: 768px) {
 
   h1 {
-    width: 90vw;
+    width: 85vw;
     font-size: 32px;
-    margin: 120px auto 0 auto;
+    margin: 136px auto 0 auto;
   }
 
   h2 {
